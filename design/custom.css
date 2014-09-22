@@ -181,7 +181,8 @@ dl.About dd {
 }
 
 .Border {
-    background: none;
+    background: white;
+    border-radius: 0;
 }
 
 .Overlay {
