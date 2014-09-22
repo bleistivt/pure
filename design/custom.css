@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
 body, h1, h2, h3, h4, h5, h6, .SiteTitle {
-    font-family: lato;
+    font-family: lato, sans-serif;
 }
 
 body {
@@ -32,7 +32,8 @@ body,
 .SiteSearch .InputBox,
 dl.About dt,
 dl.About dd,
-.ButtonBarMarkupHint {
+.ButtonBarMarkupHint,
+.editor-help-text {
     font-size: .9em;
 }
 
@@ -259,7 +260,7 @@ a,
 
 .Meta .HasNew {
     background-color: #0078e7;
-	font-weight: normal;
+    font-weight: normal;
 }
 
 a.Bookmarked:hover {
