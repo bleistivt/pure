@@ -227,7 +227,7 @@ a,
     color: rgb(230, 246, 255);
 }
 
-#Panel .BoxFilter a, #Panel .Box a {
+.BoxFilter a, .Box a {
     color: #3D4F5D;
 }
 
