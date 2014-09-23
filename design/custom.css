@@ -22,23 +22,28 @@ body,
 .DataList .Excerpt,
 .Activities a.Title,
 .Activities .Title,
-.Activities .Title a {
+.Activities .Title a,
+.DataTable .Title {
     font-size: 1em;
     color: #333;
 }
 
 .ItemDiscussion .Meta,
-.Meta .HasNew,
+.HasNew,
 .DataList .Meta,
+.DataTable .Meta,
+.DataTable .MItem,
+.BlockTitle,
 .SiteSearch .InputBox,
 dl.About dt,
 dl.About dd,
+.InformMessages,
 .ButtonBarMarkupHint,
 .editor-help-text {
     font-size: .9em;
 }
 
-.BigButton, .DataList .Title, .SiteMenu a, .Pager {
+.BigButton, .DataList .Title, .SiteMenu a, .Pager, .BigCount .Number {
     font-size: 1.2em;
 }
 
@@ -89,7 +94,7 @@ body.Profile.EditMode #Content form,
 .MenuItems,
 .NavButton {
     box-shadow: none;
-    /*border-radius:0;*/
+    /*border-radius:0;*/;
 }
 
 input.SmallInput:focus, input.InputBox:focus, textarea:focus {
@@ -183,6 +188,7 @@ dl.About dd {
 .Border {
     background: white;
     border-radius: 0;
+    padding: 10px 20px;
 }
 
 .Overlay {
@@ -207,7 +213,7 @@ dl.About dd {
 }
 
 .ButtonBar .ButtonWrap {
-    border:none;
+    border: none;
 }
 
 /* Pure */
@@ -250,8 +256,9 @@ a,
     background-color: #eee !important;
 }
 
-.MItem.Category a,
-.Meta .HasNew,
+.DataList .MItem.Category a,
+.DiscussionMeta .MItem.Category a,
+.HasNew,
 .Count,
 .Tag {
     background: #819AA9;
@@ -264,7 +271,7 @@ a,
     display: inline;
 }
 
-.Meta .HasNew {
+.HasNew {
     background-color: #0078e7;
     font-weight: normal;
 }
