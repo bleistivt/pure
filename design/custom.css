@@ -83,6 +83,14 @@ body.Profile.EditMode #Content form,
     margin-bottom: 20px;
 }
 
+.Pager {
+    margin-top: -5px;
+}
+
+#PagerBefore {
+    margin-top: -8px;
+}
+
 .Pager a, .Pager span {
     display: inline-block;
     padding: 10px 5px;
