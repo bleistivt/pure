@@ -6,5 +6,6 @@ $ThemeInfo['pure'] = array(
     'Url'         => 'https://github.com/bleistivt/vanilla-pure',
     'Author'      => 'Bleistivt',
     'AuthorUrl'   => 'http://bleistivt.net',
+    'License'     => 'GNU GPL2',
     'RequiredApplications' => array('Vanilla' => '2.1')
 );
