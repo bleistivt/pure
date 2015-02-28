@@ -469,12 +469,6 @@ input[type="checkbox"]:focus {
     outline: 1px auto #129FEA;
 }
 
-.pure-checkbox,
-.pure-radio {
-    margin: 0.5em 0;
-    display: block;
-}
-
 input[type="text"][disabled],
 input[type="password"][disabled],
 input[type="email"][disabled],
